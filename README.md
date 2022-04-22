@@ -18,7 +18,7 @@ MySQL
 타임리프(Thymeleaf)
 
 위의 설정으로 게시판을 만들어보려고 한다.﻿(추후 로그인 및 영화 예매 시스템 추가 예정)
-﻿현재 프로젝트 설정 : AOP, 트랜잭션, slf4j JPA, MyBatis
+현재 프로젝트 설정 : AOP, 트랜잭션, slf4j JPA, MyBatis
  
 
 - 게시판 입력화면 -
@@ -35,4 +35,5 @@ MySQL
 
 참조
 https://congsong.tistory.com/12
+
 https://earth-95.tistory.com/44
