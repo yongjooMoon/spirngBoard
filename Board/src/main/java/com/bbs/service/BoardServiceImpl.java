@@ -10,7 +10,7 @@ import com.bbs.domain.BoardDTO;
 import com.bbs.mapper.BoardMapper;
 
 @Service
-public class BoardServocelmpl implements BoardService {
+public class BoardServiceImpl implements BoardService {
 
 	@Autowired
 	private BoardMapper boardMapper;
@@ -24,6 +24,9 @@ public class BoardServocelmpl implements BoardService {
 		} else {
 			queryResult = boardMapper.updateBoard(params);
 		}
+		
+		BoardDTO board = null;
+		System.out.println(board.getTitle());
 
 		return (queryResult == 1) ? true : false;
 	}
