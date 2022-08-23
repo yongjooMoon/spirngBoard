@@ -1,4 +1,4 @@
-# jpaBoard
+# springBoard
 
 ﻿
 - 툴 -
